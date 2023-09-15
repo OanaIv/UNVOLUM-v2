@@ -69,6 +69,13 @@ body {
     padding: 0 10em 0 10em;
 }
 
+.work {
+    border-radius: 1em;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    padding: 1em 0.5em;
+    margin: 1em;
+}
+
 .work-txt {
     padding: 0 10em 4em 10em;
     text-align: justify;
@@ -89,6 +96,11 @@ body {
     height: 50%;
     width: 50%;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: 1s ease;
+}
+
+.gallery > img:hover {
+    transform: scale(1.1);
 }
 
 .team {
