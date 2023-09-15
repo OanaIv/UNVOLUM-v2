@@ -139,10 +139,15 @@ body {
     transform: scale(1.1);
 }
 
-.team-member > p {
+.name-role {
     text-align: center;
     font-variant: all-petite-caps;
-    font-size: 1.2em;
+    font-size: 1em;
+    margin: 1em;
+}
+
+.name-role > p {
+    margin: 0;
 }
 
 
