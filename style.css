@@ -31,6 +31,8 @@ body {
 
 .btn-container {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .nav-bar-btn {
@@ -88,3 +90,26 @@ body {
     width: 50%;
 }
 
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2b3e44;
+    color: white;
+    padding: 5em 10em 5em 10em;
+    margin: 3em 0;
+}
+
+.contact > p {
+    max-width: 60%;
+}
+
+.contact-btn {
+    border-radius: 0%;
+    border: none;
+    padding: 1.5em;
+    width: 14em;
+    margin-top: 2em;
+    cursor: pointer;
+}
