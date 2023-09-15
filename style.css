@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+    font-family: Gilroy, Inter, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+body {
+    margin: 0;
+}
+
+
+.header {
+    background-image: url(/assets/images/building-2-croped.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title {
+    font-size: 2.5em;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0.6em;
+}
+
+.btn-container {
+    display: flex;
+}
+
+.nav-bar-btn {
+    
+    border: none;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-family: inherit;
+    background-color: transparent;
+    cursor: pointer;
+    font-weight: lighter;
+  }
+
+.nav-bar-btn:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 0.01em;
+    text-underline-offset: 0.4em;
+  }
+
+.about-txt {
+    max-width: 50%;
+    font-weight: 600;
+    font-size: 3em;
+    margin-left: 7em;
+    padding-bottom: 5em;
+
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10em 0 10em;
+}
+
+.work-txt {
+    padding: 0 10em 4em 10em;
+    text-align: justify;
+}
+
+.sub-title {
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.gallery-img {
+    height: 50%;
+    width: 50%;
+}
+
