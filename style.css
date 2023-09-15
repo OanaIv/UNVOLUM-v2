@@ -91,34 +91,6 @@ body {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
-
-.contact {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #2b3e44;
-    color: white;
-    padding: 5em 10em 5em 10em;
-    margin: 3em 0;
-}
-
-.contact > p {
-    max-width: 60%;
-}
-
-.contact-btn {
-    border-radius: 0%;
-    border: none;
-    padding: 1em;
-    width: 14em;
-    margin-top: 2em;
-    cursor: pointer;
-    font-size: 1em;
-    font-weight: 600;
-    font-variant: all-petite-caps;
-}
-
 .team {
     background-color: #e9edf0;
     border-radius: 1em;
@@ -139,16 +111,15 @@ body {
 }
 
 .team-member {
-    border-radius: 10%;
+    border-radius: 1em;
     box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
-    
 }
 
 .team-member > img {
     width: 15em;
     height: 20em;
     object-fit: cover;
-    border-radius: 10%;
+    border-radius: 1em;
     transition: .9s ease;
 }
 
@@ -161,3 +132,33 @@ body {
     font-variant: all-petite-caps;
     font-size: 1.2em;
 }
+
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2b3e44;
+    color: white;
+    padding: 5em 10em 5em 10em;
+    margin: 3em 1em;
+    border-radius: 1em;
+}
+
+.contact > p {
+    max-width: 60%;
+}
+
+.contact-btn {
+    border: none;
+    padding: 1em;
+    width: 14em;
+    margin-top: 2em;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+    font-variant: all-petite-caps;
+    border-radius: 1em;
+}
+
