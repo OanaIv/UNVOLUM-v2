@@ -194,6 +194,14 @@ body {
     height: 5em;
 }
 
+.footer > a > img {
+    transition: 1s ease;
+}
+
+.social-media-icon:hover {
+    transform: scale(1.5);
+}
+
 .contact-list {
     list-style-type: none;
 }
