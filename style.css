@@ -179,3 +179,23 @@ body {
     border-radius: 1em;
 }
 
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2em 6em;
+    margin: 3em 1em;
+    border-radius: 1em;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.social-media-icon{
+    width: 5em;
+    height: 5em;
+}
+
+.contact-list {
+    list-style-type: none;
+}
+
+
