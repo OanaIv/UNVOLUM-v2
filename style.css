@@ -6,8 +6,13 @@
     font-weight: 400;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 body {
     margin: 0;
+    position: relative;
 }
 
 
@@ -36,14 +41,14 @@ body {
 }
 
 .nav-bar-btn {
-    
+    text-decoration: none;
     border: none;
     padding: 0.6em 1.2em;
     font-size: 1vw;
     font-family: inherit;
     background-color: transparent;
-    cursor: pointer;
     font-weight: lighter;
+    color: inherit;
   }
 
 .nav-bar-btn:hover {
@@ -225,6 +230,33 @@ body {
   ::-webkit-scrollbar-thumb:hover {
     background-color: #a8bbbf;
   }
+
+  .scroll-container {
+    position: absolute;
+    top: 0;
+    right:0;
+    height: 100%;
+  }
+
+  .scroll-container:before {
+    content: '';
+    display: block;
+    height: 100vh;
+    pointer-events: none;
+  }
+
+  .scroll-container a {
+    position: sticky;
+    top: 88vh;
+    cursor: pointer;
+    font-size: 20px;
+  }
+
+ .scroll-icon {
+    width: 70%;
+    height: auto;
+    opacity: 0.2;
+ }
 
   @media screen and (max-width: 768px) {
     .intro {
